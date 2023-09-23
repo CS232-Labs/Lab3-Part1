@@ -71,7 +71,7 @@ Where r<sub>1</sub>, r<sub>2</sub>, …, r<sub>q</sub> are the responses of the 
 - Note that the naive approach of linearly iterating over the elements for each query won't pass all of the testcases due to this time constraint. 
 
 **NOTE:**
-- Don't worry about the top lines in the output that are printed by SPIM itself. We will remove those lines in the output ourselves.
+- Don't worry about the top lines in the output that are printed by SPIM itself. We will take care of that.
 
 **SAMPLE INPUT**
 ```shell
