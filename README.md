@@ -55,4 +55,4 @@ sudo apt-get install spim
 
 ```
 * **Submit a compressed file** `{roll_number}.tar.gz`
-* Here, `{roll_number}` is your roll number.
+* `{roll_number}` is your roll number.
