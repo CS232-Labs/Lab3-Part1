@@ -67,7 +67,7 @@ Where r<sub>1</sub>, r<sub>2</sub>, …, r<sub>q</sub> are the responses of the 
 - 1 <= q <= 10,000
 
 **TIME CONSTRAINTS:**
-The program must execute **within 5 seconds** for each test input on ubuntu machines and within a minute in docker
+The program must execute **within 5 seconds** for each test input on linux machines. Note that the naive approach of linearly iterating over the elements for each query won't pass all of the testcases due to this time constraint. 
 
 **NOTE:**
 Don't worry about the top lines in the output that are printed by SPIM itself. We will remove those lines in the output ourselves.
