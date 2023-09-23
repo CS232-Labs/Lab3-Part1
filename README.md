@@ -47,28 +47,12 @@ sudo apt-get install spim
 * [Q2](Q2/README.md)
 
 ## Submission Instructions:
-* Clone this repo, name it as `{roll_number}_cs232_lab3`
-* <span style="color:red">Make sure to keep your repo as `private` (It's your responsibility to keep it private, we will not be responsible for any plagiarism/loss of marks due to this)</span>
 * Final submission structure should look like this:
 ```
-{roll_number}_cs232_lab3
-├── Q2
-│   ├── inverse.s
-├── Q3
-│   ├── inplacemergesort.s
-├── Q4
-│   ├── io.asm
-│   ├── Makefile
-│   ├── matrix-multiplication-testbench.asm
-│   ├── matrix-multiplication-ijk.asm
-│   ├── matrix-multiplication-ikj.asm
-│   ├── matrix-multiplication-jik.asm
-│   ├── matrix-multiplication-jki.asm
-│   ├── matrix-multiplication-kij.asm
-│   ├── matrix-multiplication-kji.asm
-│   ├── memory-test.asm
-├── {roll_number}-report.pdf
+{roll_number}
+├── report.pdf
+├── queryProcessing.s
+
 ```
-* You need to submit a pdf report named `{roll_number}-report.pdf` containing the details required by the questions.
-* Submit a compressed file `{roll_number}_cs232_lab3.tar.gz`
+* **Submit a compressed file** `{roll_number}.tar.gz`
 * Here, `{roll_number}` is your roll number.
