@@ -15,7 +15,7 @@ sudo docker exec -it cs251 /bin/bash
 * Navigate to the `host` Directory, which is a shared folder for your local machine and the docker container.
 * Download the `spim` binary and `exceptions.s` file in the repo, to the `Lab3` directory.
 * Navigate to the `Lab3` directory inside the docker container.
-* For Q1, just run the binaries(`./part_a`, `./part_b`, `./part_c`)
+* For Q1, just run the binaries(`./program1`, `./program2`)
 ## For Q2, to use spim inside docker: 
 * Run the following:
 ```
