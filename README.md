@@ -22,7 +22,12 @@ sudo docker exec -it cs251 /bin/bash
     chmod +x spim
     ./spim -exception_file exceptions.s -f <filename>.s
 ```
+## Installation Instructions for Linux Users:
 
+### spim
+```
+sudo apt-get install spim
+```
 ## Tutorial Videos:
 * [Youtube Tutorial 1](https://www.youtube.com/watch?v=tzkwW2SXWmQ)
 * [Youtube Tutorial 2](https://www.youtube.com/watch?v=9sumRfIgaHs)
@@ -35,19 +40,11 @@ sudo docker exec -it cs251 /bin/bash
 * [Factorial Program in x86](https://abnerrjo.github.io/blog/2016/02/21/factorial-function-in-assembly/)
 * [Regsiters & Memory in x86](https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture)
 * [System calls for Linux in x86](https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/)
-* [NASM Tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/)
 * [x86 Instruction cheatsheet](https://www.felixcloutier.com/x86/)
 
 ## Questions:
 * [Q1](Q1/README.md)
 * [Q2](Q2/README.md)
-
-## Installation Instructions:
-
-### spim
-```
-sudo apt-get install spim
-```
 
 ## Submission Instructions:
 * Clone this repo, name it as `{roll_number}_cs232_lab3`
