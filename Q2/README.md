@@ -72,6 +72,7 @@ Where r<sub>1</sub>, r<sub>2</sub>, …, r<sub>q</sub> are the responses of the 
 
 **NOTE:**
 - Don't worry about the top lines in the output that are printed by SPIM itself. We will take care of that.
+- Make sure that your code is **well-commented**
 
 **SAMPLE INPUT**
 ```shell
