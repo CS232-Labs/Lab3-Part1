@@ -2,6 +2,9 @@
 
 VIVA will be conducted for this Lab.
 
+## Instructions for Windows Users:
+* [Install Docker](https://docs.docker.com/desktop/install/windows-install/)
+* 
 ## Instructions for Mac Users:
 * Install Rosetta:
 ```
