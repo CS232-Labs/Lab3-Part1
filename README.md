@@ -1,11 +1,27 @@
-# Lab3-Part1
+# Lab 3: Part 1
 
-VIVA will be conducted for this Lab.
+A viva will be conducted for this Lab.
 
-## Instructions for Windows Users:
-* [Install Docker](https://docs.docker.com/desktop/install/windows-install/)
-* 
-## Instructions for Mac Users:
+## Instructions for Docker Users:
+* If you are working on Windows or MacOS, you will have to use Docker for this Lab
+* [Install Docker](https://www.docker.com/products/docker-desktop/)
+* On a terminal run
+```
+docker pull cs231ta/lab3-2023:lab3
+```
+to download the Docker image.
+
+* You can run
+```
+docker images
+```
+after this to check if this has succeeded (```cs231ta/lab3-2023``` should be listed).
+* To start Docker with this image, run
+```
+docker run -it cs231ta/lab3-2023:lab3 /bin/bash
+```
+* The Lab will be located in the ```/lab3``` directory
+<!-- ## Instructions for Mac Users:
 * Install Rosetta:
 ```
 /usr/sbin/softwareupdate --install-rosetta --agree-to-license
@@ -18,18 +34,17 @@ sudo docker exec -it cs251 /bin/bash
 * Navigate to the `host` Directory, which is a shared folder for your local machine and the docker container.
 * Download the `spim` binary and `exceptions.s` file in the repo, to the `Lab3` directory.
 * Navigate to the `Lab3` directory inside the docker container.
-* For Q1, just run the binaries(`./program1`, `./program2`)
-## For Q2, to use spim inside docker: 
+* For Q1, just run the binaries(`./program1`, `./program2`) -->
+<!-- ## For Q2, to use spim inside docker: 
 * Run the following:
 ```
     chmod +x spim
     ./spim -exception_file exceptions.s -f <filename>.s
+``` -->
+## Instructions for Linux Users:
+* Install ```spim``` by running
 ```
-## Installation Instructions for Linux Users:
-
-### spim
-```
-sudo apt-get install spim
+sudo apt-get update && sudo apt-get upgrade && sudo apt-get install spim
 ```
 ## Tutorial Videos:
 * [Youtube Tutorial 1](https://www.youtube.com/watch?v=tzkwW2SXWmQ)
