@@ -9,7 +9,7 @@ A viva will be conducted for this Lab.
 ```
 docker pull cs231ta/lab3-2023:lab3
 ```
-to download the Docker image.
+to download the Docker image. Intermittently keep redownloading the Docker image to receive the latest updates/modifications to the Lab.
 
 * You can run
 ```
