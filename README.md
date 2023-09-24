@@ -44,7 +44,7 @@ sudo docker exec -it cs251 /bin/bash
 ## Instructions for Linux Users:
 * Install ```spim``` by running
 ```
-sudo apt-get update && sudo apt-get upgrade && sudo apt-get install spim
+sudo apt-get -y update && sudo apt-get -y upgrade && sudo apt-get install -y spim
 ```
 ## Tutorial Videos:
 * [Youtube Tutorial 1](https://www.youtube.com/watch?v=tzkwW2SXWmQ)
