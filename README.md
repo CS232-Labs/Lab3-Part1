@@ -9,7 +9,7 @@ A viva will be conducted for this Lab.
 ```
 docker pull cs231ta/lab3-2023:lab3
 ```
-to download the Docker image.
+to download the Docker image. Intermittently keep redownloading the Docker image to receive the latest updates/modifications to the Lab.
 
 * You can run
 ```
@@ -55,9 +55,9 @@ sudo apt-get -y update && sudo apt-get -y upgrade && sudo apt-get install -y spi
 * [Presentation from the video](https://docs.google.com/presentation/d/16KDDNamMbnK1UpsAikwRhXRHEFm2Guj8dgiY6tPH8Kk/edit?usp=sharing)
 * [System calls in MIPS](https://courses.missouristate.edu/kenvollmar/mars/help/syscallhelp.html)
 * [MIPS Cheat Sheet](https://inst.eecs.berkeley.edu/~cs61c/resources/MIPS_Green_Sheet.pdf)
-* [Factorial Program in x86](https://abnerrjo.github.io/blog/2016/02/21/factorial-function-in-assembly/)
-* [Regsiters & Memory in x86](https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture)
-* [System calls for Linux in x86](https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/)
+* [```objdump``` tutorial](https://linuxhint.com/objdump-linux-command/)
+* [Factorial Program in x86](https://codereview.stackexchange.com/questions/255452/writing-a-recursive-factorial-function-in-x86-64)
+* [Registers & Memory in x86](https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture)
 * [x86 Instruction cheatsheet](https://www.felixcloutier.com/x86/)
 
 ## Questions:
