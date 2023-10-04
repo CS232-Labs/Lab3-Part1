@@ -75,5 +75,5 @@ sudo apt-get -y update && sudo apt-get -y upgrade && sudo apt-get install -y spi
 ├── queryProcessing.s
 
 ```
-* **Submit a compressed file** `{roll_number}.tar.gz`
+* **Submit a compressed file** `{roll_number}.zip`
 * `{roll_number}` is your roll number.
